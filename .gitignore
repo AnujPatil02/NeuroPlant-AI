@@ -1,0 +1,71 @@
+# ---------- Secrets (NEVER commit) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ---------- Node / React (digital-twin) ----------
+node_modules/
+digital-twin/dist/
+digital-twin/.vite/
+npm-debug.log*
+
+# ---------- Datasets (download via docs/dataset_download_guide.md) ----------
+# Ignore contents but keep the empty folders via .gitkeep
+data/raw/*
+data/processed/*
+data/synthetic/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+datasets/
+*.csv
+*.parquet
+*.mat
+
+# ---------- Models and experiment tracking ----------
+mlruns/
+mlartifacts/
+*.h5
+*.keras
+*.pt
+*.pkl
+*.joblib
+
+# ---------- Generated outputs ----------
+outputs/
+logs/
+*.log
+
+# ---------- Local databases / Docker volumes ----------
+*.db
+*.sqlite3
+postgres_data/
+influxdb_data/
+grafana_data/
+redis_data/
+
+# ---------- Local helper files ----------
+structure.txt
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

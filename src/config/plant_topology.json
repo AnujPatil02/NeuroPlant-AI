@@ -1,0 +1,232 @@
+{
+  "plant_name": "NeuroPlant Precision Mobility Factory",
+  "plant_industry": "Automotive Drivetrain Components",
+  "factories": [
+    {
+      "factory_id": "FAC01",
+      "factory_name": "NeuroPlant Pune",
+      "lines": [
+        {
+          "line_id": "LINE01",
+          "line_name": "Component Machining",
+          "machines": [
+            {
+              "machine_id": "CNC-01",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Input Shaft",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-02",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Output Shaft",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-03",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Pinion Gear",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-04",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Ring Gear",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "LINE02",
+          "line_name": "Precision Machining",
+          "machines": [
+            {
+              "machine_id": "CNC-05",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Differential Housing",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-06",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Bearing Housing",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-07",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Gear Shaft",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-08",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Clutch Hub",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "LINE03",
+          "line_name": "Finishing / Component Processing",
+          "machines": [
+            {
+              "machine_id": "CNC-09",
+              "machine_type": "CNC_SPINDLE",
+              "component": "CV Joint Housing",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-10",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Wheel Hub",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-11",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Transmission Casing",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            },
+            {
+              "machine_id": "CNC-12",
+              "machine_type": "CNC_SPINDLE",
+              "component": "Axle Shaft",
+              "sensors": [
+                { "type": "vibration", "unit": "mm/s", "warning_threshold": 4.5, "critical_threshold": 7.0 },
+                { "type": "temperature", "unit": "C", "warning_threshold": 65, "critical_threshold": 80 },
+                { "type": "current_draw", "unit": "A", "warning_threshold": 15, "critical_threshold": 20 },
+                { "type": "rpm", "unit": "rpm", "warning_threshold": 3200, "critical_threshold": 3600 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "zone_id": "ZONE_MATERIAL",
+      "zone_name": "Raw Material & Logistics",
+      "zone_type": "logistics",
+      "description": "Incoming steel blank storage, staging racks, AGV/forklift loading area"
+    },
+    {
+      "zone_id": "ZONE_TREATMENT",
+      "zone_name": "Process Treatment",
+      "zone_type": "process",
+      "description": "Deburring, washing, heat treatment — coolant, water, steam utility consumers",
+      "sensors": [
+        { "type": "temperature", "unit": "C", "warning_threshold": 850, "critical_threshold": 950 },
+        { "type": "pressure", "unit": "bar", "warning_threshold": 6.0, "critical_threshold": 8.5 }
+      ]
+    },
+    {
+      "zone_id": "ZONE_INSPECTION",
+      "zone_name": "Dimensional Inspection",
+      "zone_type": "quality",
+      "description": "Dimensional measurement, surface finish and weight inspection stations feeding Layer 8"
+    },
+    {
+      "zone_id": "ZONE_ASSEMBLY",
+      "zone_name": "Automated Assembly",
+      "zone_type": "assembly",
+      "description": "Robotic assembly cells combining machined components into finished drivetrain sub-assemblies",
+      "machines": [
+        {
+          "machine_id": "ASM-01",
+          "machine_type": "ASSEMBLY_ROBOT",
+          "component": "Drivetrain Sub-Assembly",
+          "sensors": [
+            { "type": "pressure", "unit": "bar", "warning_threshold": 6.0, "critical_threshold": 8.5 },
+            { "type": "temperature", "unit": "C", "warning_threshold": 55, "critical_threshold": 70 },
+            { "type": "humidity", "unit": "%", "warning_threshold": 70, "critical_threshold": 85 }
+          ]
+        }
+      ]
+    },
+    {
+      "zone_id": "ZONE_FINISHED_GOODS",
+      "zone_name": "Finished Goods",
+      "zone_type": "logistics",
+      "description": "Packing, storage and dispatch of finished drivetrain components"
+    },
+    {
+      "zone_id": "ZONE_UTILITY",
+      "zone_name": "Utility Plant",
+      "zone_type": "utility",
+      "description": "Electrical substation, compressed air network, cooling/water system, steam system"
+    }
+  ],
+  "product_skus": [
+    { "sku": "SKU-101", "component": "Input Shaft", "line_id": "LINE01", "ideal_cycle_time_sec": 42 },
+    { "sku": "SKU-102", "component": "Output Shaft", "line_id": "LINE01", "ideal_cycle_time_sec": 42 },
+    { "sku": "SKU-110", "component": "Pinion Gear", "line_id": "LINE01", "ideal_cycle_time_sec": 55 },
+    { "sku": "SKU-111", "component": "Ring Gear", "line_id": "LINE01", "ideal_cycle_time_sec": 58 },
+    { "sku": "SKU-118", "component": "Gear Shaft", "line_id": "LINE02", "ideal_cycle_time_sec": 47 },
+    { "sku": "SKU-119", "component": "Differential Housing", "line_id": "LINE02", "ideal_cycle_time_sec": 63 },
+    { "sku": "SKU-120", "component": "Bearing Housing", "line_id": "LINE02", "ideal_cycle_time_sec": 39 },
+    { "sku": "SKU-121", "component": "Clutch Hub", "line_id": "LINE02", "ideal_cycle_time_sec": 44 },
+    { "sku": "SKU-130", "component": "CV Joint Housing", "line_id": "LINE03", "ideal_cycle_time_sec": 51 },
+    { "sku": "SKU-131", "component": "Wheel Hub", "line_id": "LINE03", "ideal_cycle_time_sec": 46 },
+    { "sku": "SKU-132", "component": "Transmission Casing", "line_id": "LINE03", "ideal_cycle_time_sec": 70 },
+    { "sku": "SKU-133", "component": "Axle Shaft", "line_id": "LINE03", "ideal_cycle_time_sec": 48 }
+  ],
+  "mqtt_topic_pattern": "{factory_id}/{line_id}/{machine_id}/{sensor_type}",
+  "publish_interval_ms": 1000
+}
