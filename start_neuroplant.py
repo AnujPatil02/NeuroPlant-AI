@@ -1,6 +1,6 @@
 """
 start_neuroplant.py — NeuroPlant AI one-click launcher.
-
+dir /S /B D:\Anuj\neuroplant-ai | findstr /V /I ".venv" | findstr /V /I "__pycache__" | findstr /V /I "digital-twin\node_modules" | findstr /V /I "digital-twin\dist" | findstr /V /I "tests" | findstr /V /I "outputs" | findstr /V /I "notebooks" | findstr /V /I "docker" > structure.txt
 Runs everything the demo needs, in the right order, with health checks
 between each step. Press Ctrl+C once to shut down all background services.
 
